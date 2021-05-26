@@ -24,5 +24,8 @@ jobs:
     - name: 签到
       run: |
         pip install -r requirements.txt
+        for((i=0;i<10;i++))
+        do
         python3 shuapiao.py
+        done
 
