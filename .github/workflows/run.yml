@@ -24,6 +24,6 @@ jobs:
     - name: 签到
       run: |
         pip install -r requirements.txt
-        python3 AutoDailyAttendance.py
+        python3 shuapiao.py
         EOF
 
