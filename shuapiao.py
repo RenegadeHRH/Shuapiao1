@@ -70,4 +70,4 @@ def getPage():
     print(respond.status_code)
     print(respond.text)
 getPage()
-# click()
+click()
