@@ -66,7 +66,7 @@ def getPage():
         "Accept-Language" : "zh-CN,zh;q=0.9",
         # "Cookie" = "xn_dvid_kf_20125=6B3F40-D5FEE2C4-92E8-DBC4-AA11-5BC0B65C3A1E; HWWAFSESID=9a96773df26657df23; HWWAFSESTIME=1622019054545; Hm_lvt_82dc9406a304f020903ac2082ddad1d8=1620742025,1622020318; xn_sid_kf_20125=1622043663689427; Hm_lpvt_82dc9406a304f020903ac2082ddad1d8=1622044985; UMOOC_SESSION=0D5B7048BBF9CEF77E3539A56591EC14; ALREADPRAISE_777=false"
     }
-    respond=requests.get(url=Uri,header=headers)
+    respond=requests.get(url=Uri)
     print(respond.status_code)
     print(respond.text)
 getPage()
