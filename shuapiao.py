@@ -69,5 +69,6 @@ def getPage():
     respond=requests.get(url=Uri)
     print(respond.status_code)
     print(respond.text)
-getPage()
+for i in range(20):
+    getPage()
 click()
